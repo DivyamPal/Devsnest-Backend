@@ -1,0 +1,6 @@
+ssh
+chmod 400 divyam.pem
+ssh -i "divyam.pem" ubuntu@ec2-3-21-52-204.us-east-2.compute.amazonaws.com
+sudo apt install curl
+source ~/.profile
+nvm install node
