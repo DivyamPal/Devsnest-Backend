@@ -1,5 +1,4 @@
-// const User = require('../models/user') // for postgres
-const User = require('../models/user') // for mongodb
+const User = require('../models/user') 
 const bcrypt = require('bcrypt');
 const saltRounds = 10
 
